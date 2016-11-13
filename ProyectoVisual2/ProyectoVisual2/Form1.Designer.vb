@@ -38,6 +38,7 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
         Me.Button7 = New System.Windows.Forms.Button()
@@ -79,7 +80,6 @@ Partial Class Form1
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBoxUsb.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -243,6 +243,15 @@ Partial Class Form1
         Me.GroupBox3.TabIndex = 7
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Propiedades de red"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"4", "8", "12", "24", "48", "96"})
+        Me.ComboBox1.Location = New System.Drawing.Point(85, 178)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(41, 21)
+        Me.ComboBox1.TabIndex = 11
         '
         'Label9
         '
@@ -533,11 +542,11 @@ Partial Class Form1
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(302, 26)
+        Me.Label15.Location = New System.Drawing.Point(298, 26)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(30, 13)
+        Me.Label15.Size = New System.Drawing.Size(33, 13)
         Me.Label15.TabIndex = 7
-        Me.Label15.Text = "Phis."
+        Me.Label15.Text = "Phys."
         '
         'ProgressBar3
         '
@@ -596,20 +605,11 @@ Partial Class Form1
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(7, 16)
+        Me.Label11.Location = New System.Drawing.Point(6, 16)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(37, 13)
         Me.Label11.TabIndex = 0
         Me.Label11.Text = "Total: "
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"4", "8", "12", "24", "48", "96"})
-        Me.ComboBox1.Location = New System.Drawing.Point(85, 178)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(41, 21)
-        Me.ComboBox1.TabIndex = 11
         '
         'Form1
         '
