@@ -115,7 +115,7 @@ Public Class Form1
             Next info
             TextBox1.Enabled = False
         Catch ex As Exception
-            MessageBox.Show("Esta versión es un poco antigua, solo veras la resolución" & vbCrLf & ex.ToString)
+            ' MessageBox.Show("Esta versión es un poco antigua, solo veras la resolución" & vbCrLf & ex.ToString)
             Dim screenWidth As Integer = Screen.PrimaryScreen.Bounds.Width
             Dim screenHeight As Integer = Screen.PrimaryScreen.Bounds.Height
             TextBox1.Text = screenWidth.ToString & " X " & screenHeight.ToString

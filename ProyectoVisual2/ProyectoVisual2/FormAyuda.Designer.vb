@@ -34,12 +34,12 @@ Partial Class FormAyuda
         Me.WebBrowser1.Location = New System.Drawing.Point(0, 0)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(531, 393)
+        Me.WebBrowser1.Size = New System.Drawing.Size(604, 479)
         Me.WebBrowser1.TabIndex = 0
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(194, 342)
+        Me.Button1.Location = New System.Drawing.Point(231, 414)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(143, 40)
         Me.Button1.TabIndex = 1
@@ -49,7 +49,7 @@ Partial Class FormAyuda
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(168, 326)
+        Me.Label1.Location = New System.Drawing.Point(202, 389)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(196, 13)
         Me.Label1.TabIndex = 2
@@ -59,7 +59,7 @@ Partial Class FormAyuda
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(531, 393)
+        Me.ClientSize = New System.Drawing.Size(604, 479)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.WebBrowser1)
