@@ -329,14 +329,19 @@ Public Class Form1
     End Sub
     'Procedimiento Memoria
     Private Sub getMemory()
-        Label11.Text = String.Format("TotalPhysicalMemory: {0} MBytes", System.Math.Round(My.Computer.Info.TotalPhysicalMemory / (1024 * 1024)), 2).ToString
-        ProgressBar2.Maximum = System.Math.Round(My.Computer.Info.TotalPhysicalMemory / (1024 * 1024))
-        ProgressBar2.Value = System.Math.Round(My.Computer.Info.TotalPhysicalMemory / (1024 * 1024)) - System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024))
-        Label12.Text = String.Format("AvailablePhysMemory: {0} MBytes", System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024)), 2).ToString
-        Label13.Text = String.Format("TotalVirtualMemory:  {0} MBytes", System.Math.Round(My.Computer.Info.TotalVirtualMemory / (1024 * 1024)), 2).ToString
-        ProgressBar3.Maximum = System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024))
-        ProgressBar3.Value = System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024)) - System.Math.Round(My.Computer.Info.AvailableVirtualMemory / (1024 * 1024))
-        Label14.Text = String.Format("AvailableVirtMemory: {0} MBytes", System.Math.Round(My.Computer.Info.AvailableVirtualMemory / (1024 * 1024)), 2).ToString
+        If Environment.Is64BitOperatingSystem Then
+            Label11.Text = String.Format("TotalPhysicalMemory: {0} MBytes", System.Math.Round(My.Computer.Info.TotalPhysicalMemory / (1024 * 1024)), 2).ToString
+            ProgressBar2.Maximum = System.Math.Round(My.Computer.Info.TotalPhysicalMemory / (1024 * 1024))
+            ProgressBar2.Value = System.Math.Round(My.Computer.Info.TotalPhysicalMemory / (1024 * 1024)) - System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024))
+            Label12.Text = String.Format("AvailablePhysMemory: {0} MBytes", System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024)), 2).ToString
+            Label13.Text = String.Format("TotalVirtualMemory:  {0} MBytes", System.Math.Round(My.Computer.Info.TotalVirtualMemory / (1024 * 1024)), 2).ToString
+            ProgressBar3.Maximum = System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024))
+            ProgressBar3.Value = System.Math.Round(My.Computer.Info.AvailablePhysicalMemory / (1024 * 1024)) - System.Math.Round(My.Computer.Info.AvailableVirtualMemory / (1024 * 1024))
+            Label14.Text = String.Format("AvailableVirtMemory: {0} MBytes", System.Math.Round(My.Computer.Info.AvailableVirtualMemory / (1024 * 1024)), 2).ToString
+        Else
+            ProgressBar3.Enabled = False
+            ProgressBar2.Enabled = False
+        End If
     End Sub
 
 End Class
