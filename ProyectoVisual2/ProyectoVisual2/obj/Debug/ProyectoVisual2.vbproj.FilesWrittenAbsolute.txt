@@ -1,0 +1,3 @@
+/Volumes/MacbookProHD/Users/inaki/Dropbox/Desarrollo de aplicaciones/DI privado/Visual Basic/08-Ventanas y Formularios/ProyectoVisual2/ProyectoVisual2/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.vb
+/Volumes/MacbookProHD/Users/inaki/Dropbox/Desarrollo de aplicaciones/DI privado/Visual Basic/08-Ventanas y Formularios/ProyectoVisual2/ProyectoVisual2/obj/Debug/ProyectoVisual2.exe
+/Volumes/MacbookProHD/Users/inaki/Dropbox/Desarrollo de aplicaciones/DI privado/Visual Basic/08-Ventanas y Formularios/ProyectoVisual2/ProyectoVisual2/obj/Debug/ProyectoVisual2.pdb

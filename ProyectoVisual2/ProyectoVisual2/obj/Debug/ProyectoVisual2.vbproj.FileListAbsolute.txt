@@ -1,0 +1,37 @@
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.exe.config
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.exe
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.pdb
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.xml
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.vbprojResolveAssemblyReference.cache
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.Form1.resources
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.Resources.resources
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.vbproj.GenerateResource.Cache
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.exe
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.xml
+C:\Users\8fdi02\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.pdb
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.exe.config
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.exe
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.xml
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.pdb
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.exe
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.pdb
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.xml
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.vbprojResolveAssemblyReference.cache
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.Form1.resources
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.Resources.resources
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.vbproj.GenerateResource.Cache
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.FormAyuda.resources
+C:\Users\txiki\Dropbox\DI privado\Visual Basic\08-Ventanas y Formularios\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.nombreFicheroForm.resources
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.exe.config
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.exe
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.xml
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.pdb
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.exe
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.pdb
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\bin\Debug\ProyectoVisual2.xml
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.vbprojResolveAssemblyReference.cache
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.Form1.resources
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.FormAyuda.resources
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.Resources.resources
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.nombreFicheroForm.resources
+C:\Users\txiki\Documents\GitHub\Hardware-Info\ProyectoVisual2\ProyectoVisual2\obj\Debug\ProyectoVisual2.vbproj.GenerateResource.Cache
