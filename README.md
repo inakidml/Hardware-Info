@@ -3,5 +3,5 @@
 
 #####Es necesario tener [.NET Framework 4](https://www.microsoft.com/es-es/download/details.aspx?id=30653) o superior instalado.
 
-![](image.png)
+![](images/image.png)
 
