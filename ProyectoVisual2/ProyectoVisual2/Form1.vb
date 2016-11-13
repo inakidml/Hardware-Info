@@ -107,12 +107,20 @@ Public Class Form1
     End Sub
     'Botón get Gráfica
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        Dim graphics_query As String = "SELECT * FROM Win32_VideoController"
-        Dim graphics_searcher As New ManagementObjectSearcher(graphics_query)
-        For Each info As ManagementObject In graphics_searcher.Get()
-            TextBox1.Text = info.Properties("Name").Value.ToString() & " (" & info.Properties("CurrentHorizontalResolution").Value.ToString() & " x " & info.Properties("CurrentVerticalResolution").Value.ToString() & ")"
-        Next info
-        TextBox1.Enabled = False
+        Try
+            Dim graphics_query As String = "SELECT * FROM Win32_VideoController"
+            Dim graphics_searcher As New ManagementObjectSearcher(graphics_query)
+            For Each info As ManagementObject In graphics_searcher.Get()
+                TextBox1.Text = info.Properties("Name").Value.ToString() & " (" & info.Properties("CurrentHorizontalResolution").Value.ToString() & " x " & info.Properties("CurrentVerticalResolution").Value.ToString() & ")"
+            Next info
+            TextBox1.Enabled = False
+        Catch ex As Exception
+            MessageBox.Show("Esta versión es un poco antigua, solo veras la resolución" & vbCrLf & ex.ToString)
+            Dim screenWidth As Integer = Screen.PrimaryScreen.Bounds.Width
+            Dim screenHeight As Integer = Screen.PrimaryScreen.Bounds.Height
+            TextBox1.Text = screenWidth.ToString & " X " & screenHeight.ToString
+            TextBox1.Enabled = False
+        End Try
     End Sub
     'Botón get IP
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -250,17 +258,26 @@ Public Class Form1
         Dim ip As IPAddress
         ip = IPAddress.Parse("8.8.8.8")
         ProgressBar1.ForeColor = Color.Green
+        ProgressBar1.Maximum = ComboBox1.SelectedItem
         TextBox7.AppendText("Ping" & vbCrLf)
-        For i = 1 To 10
+        For i = 1 To ComboBox1.SelectedItem
             ProgressBar1.Value = i
-            res = eco.Send(ip)
-            If res.Status = NetworkInformation.IPStatus.Success Then
-                TextBox7.AppendText("Respuesta desde " & res.Address.ToString & " en " & res.RoundtripTime.ToString & " ms " & vbCrLf)
-            Else
-                TextBox7.AppendText("Sin Respuesta" & vbCrLf)
+            Try
+                res = eco.Send(ip)
+                If res.Status = NetworkInformation.IPStatus.Success Then
+                    TextBox7.AppendText("Respuesta desde " & res.Address.ToString & " en " & res.RoundtripTime.ToString & " ms " & vbCrLf)
+                Else
+                    TextBox7.AppendText("Sin Respuesta" & vbCrLf)
+                    ProgressBar1.ForeColor = Color.Red
+                    'you need to disable the setting "Enable xp Visual Styles" under project properties
+                End If
+            Catch ex As Exception
+                MessageBox.Show("Problema con el interfaz de Red" & vbCrLf & vbCrLf & ex.ToString)
                 ProgressBar1.ForeColor = Color.Red
-                'you need to disable the setting "Enable xp Visual Styles" under project properties
-            End If
+                Exit For
+
+            End Try
+
         Next
     End Sub
     'Botón nsLookup
@@ -296,6 +313,7 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         GroupBoxUsb.Enabled = False
         Timer1.Enabled = True
+        ComboBox1.SelectedIndex = 1
     End Sub
     'timer Hora
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
