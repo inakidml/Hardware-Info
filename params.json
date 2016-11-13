@@ -1,6 +1,6 @@
 {
   "name": "Hardware-info",
   "tagline": "Tool created in Visual Basic that shows some hardware info",
-  "body": "# Hardware Info Tool v 1.0\r\n######Software creado en visual Basic, como proyecto para la asignatura Desarrollo de interfaces del Grado superior de Desarrollo de aplicaicones multiplataforma\r\n\r\n#####Es necesario tener [.NET Framework 4](https://www.microsoft.com/es-es/download/details.aspx?id=30653) o superior instalado.\r\n\r\n![](https://github.com/inakidml/Hardware-Info/blob/master/image.png)\r\n\r\n",
+  "body": "# Hardware Info Tool v 1.0\r\n######Software creado en visual Basic, como proyecto para la asignatura Desarrollo de interfaces del Grado superior de Desarrollo de aplicaicones multiplataforma\r\n\r\n#####Es necesario tener [.NET Framework 4](https://www.microsoft.com/es-es/download/details.aspx?id=30653) o superior instalado.\r\n\r\n![](https://github.com/inakidml/Hardware-Info/image.png)\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
