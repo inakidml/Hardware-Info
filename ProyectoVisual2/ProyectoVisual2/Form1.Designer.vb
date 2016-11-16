@@ -71,6 +71,7 @@ Partial Class Form1
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Label10 = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
+        Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.ProgressBar3 = New System.Windows.Forms.ProgressBar()
@@ -80,6 +81,8 @@ Partial Class Form1
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.ToolTip2 = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBoxUsb.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -514,6 +517,7 @@ Partial Class Form1
         '
         'GroupBox6
         '
+        Me.GroupBox6.Controls.Add(Me.Label17)
         Me.GroupBox6.Controls.Add(Me.Label16)
         Me.GroupBox6.Controls.Add(Me.Label15)
         Me.GroupBox6.Controls.Add(Me.ProgressBar3)
@@ -529,6 +533,15 @@ Partial Class Form1
         Me.GroupBox6.TabIndex = 12
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "Memoria"
+        '
+        'Label17
+        '
+        Me.Label17.AutoSize = True
+        Me.Label17.Location = New System.Drawing.Point(217, 45)
+        Me.Label17.Name = "Label17"
+        Me.Label17.Size = New System.Drawing.Size(45, 13)
+        Me.Label17.TabIndex = 9
+        Me.Label17.Text = "Label17"
         '
         'Label16
         '
@@ -556,6 +569,7 @@ Partial Class Form1
         Me.ProgressBar3.Step = 1
         Me.ProgressBar3.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar3.TabIndex = 6
+        Me.ToolTip2.SetToolTip(Me.ProgressBar3, "Memoria Virtual usada")
         '
         'ProgressBar2
         '
@@ -565,6 +579,7 @@ Partial Class Form1
         Me.ProgressBar2.Step = 1
         Me.ProgressBar2.Style = System.Windows.Forms.ProgressBarStyle.Continuous
         Me.ProgressBar2.TabIndex = 5
+        Me.ToolTip1.SetToolTip(Me.ProgressBar2, "Memoria Física Usada")
         '
         'Button8
         '
@@ -708,4 +723,7 @@ Partial Class Form1
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
     Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents ToolTip2 As ToolTip
+    Friend WithEvents Label17 As Label
 End Class

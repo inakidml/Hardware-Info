@@ -54,6 +54,7 @@ Public Class Form1
     End Sub
     'radio button COM
     Private Sub RadioButton1_CheckedChanged(sender As Object, e As EventArgs) Handles RadioButton1.CheckedChanged
+        GroupBoxUsb.Enabled = False
         seleccionPuertos = "COM"
     End Sub
     'listbox usb com
@@ -339,4 +340,20 @@ Public Class Form1
         Label14.Text = String.Format("AvailableVirtMemory: {0} MBytes", System.Math.Round(My.Computer.Info.AvailableVirtualMemory / (1024 * 1024)), 2).ToString
     End Sub
 
+    Private Sub ProgressBar2_Click(sender As Object, e As EventArgs) Handles ProgressBar2.MouseHover
+        Label17.Text = ProgressBar2.Value & "MBytes"
+    End Sub
+
+
+    Private Sub ProgressBar3_Click(sender As Object, e As EventArgs) Handles ProgressBar3.MouseHover
+        Label17.Text = ProgressBar3.Value & "MBytes"
+    End Sub
+
+    Private Sub ProgressBar2_Click_1(sender As Object, e As EventArgs) Handles ProgressBar2.MouseLeave
+        Label17.Text = ""
+    End Sub
+
+    Private Sub ProgressBar3_Click_1(sender As Object, e As EventArgs) Handles ProgressBar3.Click
+        Label17.Text = ""
+    End Sub
 End Class
