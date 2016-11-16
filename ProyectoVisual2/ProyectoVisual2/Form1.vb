@@ -250,6 +250,8 @@ Public Class Form1
         TextBox5.Text = My.User.Name
         TextBox6.Text = My.Computer.FileSystem.SpecialDirectories.Desktop
         rutaEscritorio = (My.Computer.FileSystem.SpecialDirectories.Desktop & "\")
+        TextBox5.Enabled = False
+        TextBox6.Enabled = False
     End Sub
     'Botón Ping
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
@@ -315,6 +317,7 @@ Public Class Form1
         GroupBoxUsb.Enabled = False
         Timer1.Enabled = True
         ComboBox1.SelectedIndex = 1
+        Label17.Text = ""
     End Sub
     'timer Hora
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
